@@ -29,11 +29,11 @@ Never draw more than 1 card per second
 
 ## Some screenshots 📷
 
-![Screenshot](https://res.cloudinary.com/dlw5hqmkj/image/upload/v1660820944/poker2_zthuma.png)
+![Screenshot](https://res.cloudinary.com/dlw5hqmkj/image/upload/v1660834388/pokerquit_yycbmr.png)
 
 Also designed for mobile devices
 
-![Screenshot](https://res.cloudinary.com/dlw5hqmkj/image/upload/v1660820944/mobile2_mmvwpi.png)
+![Screenshot](https://res.cloudinary.com/dlw5hqmkj/image/upload/v1660834480/pokerquitmobile_ktsyp4.png)
 
 ### Build-with 🛠️
 

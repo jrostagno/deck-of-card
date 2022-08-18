@@ -84,7 +84,6 @@ function App() {
   };
 
   const handleStart = () => {
-    handleReset();
     setIsPlaying(true);
     intervalId.current = setInterval(startDealing, SECONDS);
   };
@@ -95,7 +94,10 @@ function App() {
     setQueenNumber(0);
     setCardSorted([]);
     setDeckId("");
-    getDeck().then((res) => setDeckId(res.data.deck_id));
+  };
+
+  const handleQuit = () => {
+    window.location.reload();
   };
 
   return (
@@ -107,7 +109,7 @@ function App() {
           {!isPlaying ? (
             <ButtonPrimary onClick={handleStart}>Find The Queens</ButtonPrimary>
           ) : (
-            <ButtonSecondary onClick={handleReset}>Reaload</ButtonSecondary>
+            <ButtonSecondary onClick={handleQuit}>Quit</ButtonSecondary>
           )}
         </div>
         {finished && <CongratsText className="mt-10">Well Done !</CongratsText>}
