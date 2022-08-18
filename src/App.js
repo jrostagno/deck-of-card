@@ -115,9 +115,9 @@ function App() {
       </div>
 
       {finished ? (
-        <CardsSorted cardSorted={cardSorted}></CardsSorted>
+        <CardsSorted cardSorted={cardSorted} />
       ) : (
-        <CardsDraws cards={cards}></CardsDraws>
+        <CardsDraws cards={cards} />
       )}
     </Layout>
   );
